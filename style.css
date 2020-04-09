@@ -1,0 +1,80 @@
+/* Colors and fonts*/
+body {
+	background: rgb(230,230,230);
+	color: white;
+	font-family: 'Lora', serif
+	font-size: 17px;
+	font-weight: lighter;
+}
+
+.container {
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	background-color:rgb(200,200,200); 
+	width: 700px;
+	margin: 0px auto;
+	}
+
+.container img {
+	width:150px;
+	border-radius: 50%;
+	}
+
+
+.card-white {
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	background-color:#051225; 
+	margin: 0px auto;
+	text-align: center;
+	}
+
+.list-inline {
+	list-style: none;
+	}
+
+.list-inline li {
+	display: inline;
+	}
+
+
+
+h1,h2 {
+	font-family: 'Roboto', sans-serif;
+}
+h1 {
+	color: #575F7D;
+	font-size: 32px;
+	font-weight: 900;
+}
+h2 {
+	color:#7ECE90;
+	font-size: 20px;
+	font-weight: 500;
+}
+a {
+	font-family: 'Roboto', sans-serif; 
+   text-decoration: none;
+   color:#6B72E1;
+   font-weight: 600;
+   font-size: 16px; 
+}
+a:hover {
+	color: black;
+}
+@media(max-width:760px){
+	.container{
+	width:660px;
+	margin:0px auto;
+              }
+    }
+
+@media(max-width:500px){
+	.container{
+	width:400px;
+	margin:0px auto;
+              }
+    }
+
+
+
+
+
